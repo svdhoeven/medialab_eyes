@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="eyes begging">
     <LeftEye />
     <RightEye />
   </div>
@@ -18,12 +18,37 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    overflow: scroll;
+    overflow-x: hidden;
+    min-height: 100%;
+    height: 100%;
+  }
+
+  html body {
+    height: 100%;
+  }
+
+  .eyes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: blue;
+  }
+
+  .eyes section{
+    width: 50%;
+    height: 100%;
+    background-size: 500px 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
 </style>

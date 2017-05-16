@@ -12,16 +12,16 @@ html {
 
 html body{
     height: 100%;
-}
+    }
 
-.eyes{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: blue;
-}
+    .eyes {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: blue;
+    }
 
 .eyes section{
     width: 50%;
@@ -31,50 +31,26 @@ html body{
     background-repeat: no-repeat;
 }
 
-.eyes.begging .right{
-    background-image: url(img/eyes/right/begging.svg);
-}
-
-.eyes.blink .right{
-    background-image: url(img/eyes/right/blink.svg);
-}
-
-.eyes.happy .right{
-    background-image: url(img/eyes/right/happy.svg);
-}
-
-.eyes.default .right{
-    background-image: url(img/eyes/right/default.svg);
-}
-
-.eyes.heart .right{
-    background-image: url(img/eyes/right/heart.svg);
-}
-
-.eyes.tired .right{
-    background-image: url(img/eyes/right/tired.svg);
-}
-
-.eyes.begging .left{
+.begging {
     background-image: url(img/eyes/left/begging.svg);
 }
 
-.eyes.blink .left{
+.blink {
     background-image: url(img/eyes/left/blink.svg);
 }
 
-.eyes.happy .left{
+.happy {
     background-image: url(img/eyes/left/happy.svg);
 }
 
-.eyes.default .left{
+.default {
     background-image: url(img/eyes/left/default.svg);
 }
 
-.eyes.heart .left{
+.heart {
     background-image: url(img/eyes/left/heart.svg);
 }
 
-.eyes.tired .left{
+.tired {
     background-image: url(img/eyes/left/tired.svg);
 }
