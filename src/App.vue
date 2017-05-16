@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="eyes begging">
-    <LeftEye />
     <RightEye />
+    <LeftEye />
   </div>
 </template>
 
