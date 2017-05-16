@@ -16,6 +16,11 @@ export default {
 
   section {
     background-image: url(../assets/eyes/left/default.svg);
+    width: 50%;
+    height: 100%;
+    background-size: 500px 500px;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   section.begging {

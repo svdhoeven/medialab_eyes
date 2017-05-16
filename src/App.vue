@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="eyes begging">
+  <div id="app">
     <RightEye />
     <LeftEye />
   </div>
@@ -34,21 +34,13 @@ export default {
     height: 100%;
   }
 
-  .eyes {
+  #app {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: blue;
-  }
-
-  .eyes section{
-    width: 50%;
-    height: 100%;
-    background-size: 500px 500px;
-    background-position: center;
-    background-repeat: no-repeat;
   }
 
 </style>
