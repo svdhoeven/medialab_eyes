@@ -40,7 +40,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: blue;
+    background: rgb(212, 212, 212);
   }
 
 </style>
